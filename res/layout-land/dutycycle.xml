@@ -1,0 +1,29 @@
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_marginTop="20dip"
+	android:paddingTop="12dip">
+	<TextView android:text="" android:id="@+id/TextView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+	<CheckBox android:text="Audio DutyCycle" android:id="@+id/StationaryCheckBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+	<TextView android:text="" android:id="@+id/TextView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<CheckBox android:text="Walking" android:id="@+id/WalkingCheckBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+	<TextView android:text="" android:id="@+id/TextView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<CheckBox android:text="Running" android:id="@+id/RunningBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+	<TextView android:text="" android:id="@+id/TextView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<CheckBox android:text="Driving" android:id="@+id/DrivingBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+	<TextView android:text="" android:id="@+id/TextView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<CheckBox android:text="Talking" android:id="@+id/TalkingBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+
+
+</LinearLayout>

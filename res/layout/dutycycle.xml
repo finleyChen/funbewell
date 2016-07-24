@@ -1,0 +1,17 @@
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_marginTop="20dip"
+	android:paddingTop="12dip">
+	<TextView android:text="" android:id="@+id/TextView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<CheckBox android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/AudioDutyCycleTextBox"
+		 android:text="Audio duty cycle"></CheckBox>
+	<TextView android:text="" android:id="@+id/TextView02"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<CheckBox android:text="Accel duty cycle" android:id="@+id/AccelDutyCycleTextBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+
+
+
+</LinearLayout>

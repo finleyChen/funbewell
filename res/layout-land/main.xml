@@ -1,0 +1,100 @@
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<AbsoluteLayout android:id="@+id/AbsoluteLayout01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+
+		<FrameLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_x="20px"
+			android:layout_y="15px">
+
+			<TextView android:id="@+id/text_audio" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:textSize="24sp" android:background="@color/violet"
+				android:gravity="center" android:textColor="@color/white"
+				android:text="  Physical   &#10;  Activity  " android:singleLine="false" />
+
+		</FrameLayout>
+		<FrameLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_x="40px"
+			android:layout_y="90px">
+
+			<ImageView android:src="@drawable/cross"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		</FrameLayout>
+		<FrameLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_x="38px"
+			android:layout_y="185px">
+
+			<TextView android:id="@+id/button_status_audio"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textStyle="bold" android:textSize="18sp" android:gravity="center"
+				android:textColor="@color/white" android:text="  Not   &#10;  Available  "
+				android:singleLine="false" />
+
+		</FrameLayout>
+
+
+
+		<FrameLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_x="170px"
+			android:layout_y="30px">
+
+			<TextView android:id="@+id/text_audio" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:textSize="24sp" android:background="@color/violet"
+				android:gravity="center" android:textColor="@color/white"
+				android:text="    Audio    " android:singleLine="false" />
+
+		</FrameLayout>
+		<FrameLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_x="190px"
+			android:layout_y="90px">
+			<ImageView android:src="@drawable/cross"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		</FrameLayout>
+		<FrameLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_x="185px"
+			android:layout_y="185px">
+
+			<TextView android:id="@+id/button_status_acc"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textStyle="bold" android:textSize="18sp" android:gravity="center"
+				android:textColor="@color/white" android:text="  Not   &#10;  Available  "
+				android:singleLine="false" />
+
+		</FrameLayout>
+
+
+		<FrameLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_x="315px"
+			android:layout_y="30px">
+
+			<TextView android:id="@+id/text_audio" android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:textStyle="bold"
+				android:textSize="24sp" android:background="@color/violet"
+				android:gravity="center" android:textColor="@color/white"
+				android:text="   Location   " android:singleLine="false" />
+
+		</FrameLayout>
+		<FrameLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_x="340px"
+			android:layout_y="90px">
+			<ImageView android:src="@drawable/cross"
+				android:layout_width="wrap_content" android:layout_height="wrap_content" />
+		</FrameLayout>
+		<FrameLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_x="335px"
+			android:layout_y="185px">
+
+			<TextView android:id="@+id/button_status_location"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:textStyle="bold" android:textSize="18sp" android:gravity="center"
+				android:textColor="@color/white" android:text="  Not   &#10;  Available  "
+				android:singleLine="false" />
+
+		</FrameLayout>
+
+	</AbsoluteLayout>
+</LinearLayout>

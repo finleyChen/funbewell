@@ -1,0 +1,10 @@
+CHANGESET
+
+r127 2011 09 28
+- Added pooling of Ml_toolkit_objects.
+
+r130 2011 09 28
+- Added pooling of AccelerometerData in AccelerometerService.
+
+r173 2011 10 18
+- More power-savy default settings.

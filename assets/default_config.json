@@ -1,0 +1,54 @@
+{       "name": "WifiScanner",
+        "version":1,
+        "dataArchivePeriod":6048001,
+        "dataUploadUrl":"",
+        "dataUploadPeriod":600,
+        "dataRequests":{
+	        "edu.dartmouth.cs.funf.probe.LocationProbe": [
+	             { "PERIOD": 600, "DURATION": 5 }
+	        ],
+	        "edu.dartmouth.cs.funf.probe.WifiProbe": [
+	            { "PERIOD": 1200}
+	        ],
+		"edu.mit.media.funf.probe.builtin.BluetoothProbe": [
+	             { "PERIOD": 600, "DURATION":30  }
+	        ],
+		"edu.mit.media.funf.probe.builtin.CallLogProbe": [
+	             { "PERIOD": 3600 }
+	        ],
+		"edu.mit.media.funf.probe.builtin.SMSProbe": [
+	             { "PERIOD": 3600 }
+	        ],
+		"edu.mit.media.funf.probe.builtin.BrowserBookmarksProbe": [
+	             { "PERIOD": 86400 }
+	        ],
+		"edu.mit.media.funf.probe.builtin.BrowserSearchesProbe": [
+	             { "PERIOD": 86400 }
+	        ],
+		"edu.mit.media.funf.probe.builtin.RunningApplicationsProbe": [
+	             { "PERIOD": 1200 }
+	        ],
+	    "edu.mit.media.funf.probe.builtin.HardwareInfoProbe": [
+                 { "PERIOD": 86400 }
+            ],
+	    "edu.dartmouth.cs.funf.probe.CalendarProbe": [
+	             { "PERIOD": 86400 }
+	        ],
+	    "edu.dartmouth.cs.funf.probe.RunningAppServiceProbe": [
+	             { "PERIOD": 1200 }
+	        ],
+	    "edu.dartmouth.cs.funf.probe.RunningAppProcessInfoProbe": [
+	             { "PERIOD": 1200 }
+	        ],
+		"edu.dartmouth.cs.funf.probe.DebugProbe": [
+	             { "PERIOD": 6048000 }
+	        ],
+	    "edu.dartmouth.cs.funf.probe.LocalPhoneNumberProbe": [
+                 { "PERIOD": 86400 }
+            ],
+	    "edu.dartmouth.cs.libbewell.probe.BeWellAudioFeatureProbe": [
+                 { "PERIOD": 604800  }
+            ]
+	 }
+	
+}

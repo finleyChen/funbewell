@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, main_activity!</string>
+	<string name="app_name">Biorhythm</string>
+	<string name="foreground_service_started">Service is in the foreground</string>
+	<string name="foreground_service_started_aud">Service is in the foreground aud</string>
+	<string name="foreground_service_started_upload">Service is in the foreground upload</string>
+	<string name="foreground_service_started_location">Service is in the foreground location</string>
+	<string name="local_service_label">Sample Local Service</string>
+	<string name="CUSTOM_VIEW">Custome View</string>
+	<string name="CrashReport_MailSubject">ML Toolkit Crash Report</string>
+	<string name="CrashReport_MailBody">Crash report is as follows</string>
+	<integer-array name="accel_foreground"></integer-array>
+	<string name="popup_heading1">CURRENT SCORE</string>
+	<string name="popup_heading2">FROM YESTERDAY</string>
+	<string name="popup_score_head">MY SCORES</string>
+	<string name="wallpaper_description">Displays user scores for physical activity, sleep, and socialability.</string>
+	<string name="popup_name">BeWell scores</string>
+	<string name="app_name_mltoolkit">BeWell Sensing</string>
+	<string name="pauseString">Pause Sensing</string>
+	<string name="startString">Start Sensing</string>
+	<string name="app_version">Version: 1.02(20130501)</string>
+	<string name="policy_text">If you sign up to the BeWell+ site you can review your longitudinal data for free.The data stored on the site includes your scores, sensor features and app usage.\n\nWe do not record or store any audio or other raw sensor information on the phone nor in the cloud to protect your privacy.\n\nBeWell is part of an on-going research project studying mobile health in the Smartphone Sensor Group (Dartmouth College), People-Aware Computing Group (Cornell University), the Dartmouth Institute for Health Policy and Clinical Practice (Dartmouth College) and the Mobile Middleware Group (University of Bologna). The data stored on the site maybe used as part of future studies in which case the data will be anonymized and the identify of users protected. By signing up to the site you explicitly accept these conditions.\n\nBeWell also runs in a standalone mode where you can view only the current data and not historical data. So if you decide not to use BeWell+ site services you can still use the app but without the capability to view your historical data.
+</string>
+</resources>
+ 

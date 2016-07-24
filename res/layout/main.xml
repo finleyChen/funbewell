@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:layout_gravity="center" android:orientation="vertical"
+	android:layout_marginTop="1dip">
+	
+
+
+	<TextView android:id="@+id/text_accel" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:textStyle="bold"
+		android:textSize="24sp" android:background="@color/violet"
+		android:gravity="center" android:textColor="@color/white" android:text="Accelerometer"/>
+
+	<ImageView android:id="@+id/status_icon_accel"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true" android:paddingLeft="10px"
+		android:src="@drawable/cross" android:layout_below="@id/text_accel"
+		android:paddingTop="5px" android:paddingRight="5px"
+		android:paddingBottom="15px" />
+
+	<TextView android:id="@+id/button_status_acc" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Not Available"
+		android:textSize="20sp" android:textStyle="bold" 
+		android:layout_toRightOf="@+id/status_icon_accel"
+		android:gravity="center"
+		android:paddingTop="30px"
+		android:layout_below="@id/text_accel"/>
+		
+		
+		
+
+	<TextView android:id="@+id/text_audio" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_below="@id/status_icon_accel"
+		android:text="Audio" android:textStyle="bold" android:textSize="24sp"
+		android:background="@color/violet" android:gravity="center"
+		android:textColor="@color/white" />
+
+	<ImageView android:id="@+id/status_icon_audio"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true" android:paddingLeft="10px"
+		android:src="@drawable/cross" android:layout_below="@id/text_audio"
+		android:paddingTop="5px" android:paddingRight="5px"
+		android:paddingBottom="15px" />
+		
+	<TextView android:id="@+id/button_status_audio" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Not Available"
+		android:textSize="20sp" android:textStyle="bold" 
+		android:layout_toRightOf="@+id/status_icon_audio"
+		android:gravity="center"
+		android:paddingTop="30px"
+		android:layout_below="@id/text_audio"/>
+
+
+
+	<TextView android:id="@+id/text_location"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_below="@id/status_icon_audio" android:text="Location"
+		android:textStyle="bold" android:textSize="24sp" android:background="@color/violet"
+		android:gravity="center" android:textColor="@color/white" />
+
+	<ImageView android:id="@+id/status_icon_location"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true" android:paddingLeft="10px"
+		android:src="@drawable/cross" android:layout_below="@id/text_location"
+		android:paddingTop="35px" android:paddingRight="5px"
+		android:paddingBottom="15px" />
+		
+	<TextView android:id="@+id/button_status_location" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Not Available"
+		android:textSize="14sp" 
+		android:layout_toRightOf="@+id/status_icon_location"
+		android:gravity="center"
+		android:paddingTop="40px"
+		android:layout_below="@id/text_location"/>
+
+	<!-- -	Diabled for Bewell
+	<TextView android:id="@+id/button_status_wifi" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Wifi: Not Available"
+		android:textSize="14sp" 
+		android:layout_below="@+id/status_icon_location"
+		android:gravity="center"
+		android:paddingTop="5px"
+		/>
+	
+	
+	<TextView android:id="@+id/button_status_bluetooth" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="Bluetooth: Not Available"
+		android:textSize="14sp" 
+		android:layout_below="@+id/button_status_wifi"
+		android:gravity="center"
+		android:paddingTop="2px"
+		/>	
+ 	-->
+
+</RelativeLayout>

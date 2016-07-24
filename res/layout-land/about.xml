@@ -1,0 +1,43 @@
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+	
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40px"
+        android:layout_y="35px"
+        >        
+        <ImageView
+            android:src = "@drawable/mash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />            
+    </FrameLayout>
+        <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="190px"
+        android:layout_y="35px"
+        >        
+        <ImageView
+            android:src = "@drawable/xiao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />            
+    </FrameLayout>
+        <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="340px"
+        android:layout_y="35px"
+        >        
+        <ImageView
+            android:src = "@drawable/mu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />            
+    </FrameLayout>
+</AbsoluteLayout>
+</LinearLayout>

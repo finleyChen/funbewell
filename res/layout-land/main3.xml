@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:layout_gravity="center" android:orientation="vertical">
+
+	<!--
+	 <LinearLayout android:id="@+id/LinearLayout01"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="horizontal" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:layout_marginTop="50dip">
+
+		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/RelativeLayout02" android:orientation="horizontal"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:layout_weight="3">
+
+			<Button android:id="@+id/button_label_activity" android:text=" Label"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:layout_centerHorizontal="true"></Button>
+		</RelativeLayout>
+
+
+		<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/RelativeLayout03" android:orientation="horizontal"
+			android:layout_height="wrap_content" android:layout_toRightOf="@+id/RelativeLayout03"
+			android:layout_alignParentRight="true" android:layout_width="wrap_content"
+			android:layout_weight="3">
+
+			<Button android:text="Sensor" android:id="@+id/button_sensor_activity"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:layout_centerHorizontal="true"></Button>
+
+		</RelativeLayout>
+
+	</LinearLayout> 
+	--> 
+
+
+
+
+	<LinearLayout android:id="@+id/LinearLayout02"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical" android:layout_below="@+id/LinearLayout01"
+		android:layout_marginTop="60dip">
+
+
+		<TextView android:layout_height="wrap_content" android:id="@+id/button_status_audio"
+			android:layout_width="fill_parent" android:gravity="center"
+			android:text="audio: Audio inference is not available"></TextView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/button_status_acc"
+			android:layout_width="fill_parent" android:gravity="center"
+			android:text="accel: Accelerometer inference is not available"></TextView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/button_status_location"
+			android:layout_width="fill_parent" android:gravity="center"
+			android:text="loc: Location inference is not available"></TextView>
+		<TextView android:layout_height="wrap_content" android:id="@+id/Debug_textView"
+			android:gravity="center" android:layout_width="fill_parent"
+			android:text="Debug info"></TextView>
+	</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,34 @@
+<LinearLayout android:id="@+id/LinearLayout02"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_marginTop="10dip" android:layout_gravity="center" >
+
+	<CheckBox android:text="Audio Sensor" android:id="@+id/AudioCheckBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+	<TextView android:text="" android:id="@+id/TextView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<CheckBox android:text="Accelerometer Sensor" android:id="@+id/AccelCheckBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+	<TextView android:text="" android:id="@+id/TextView02"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<CheckBox android:text="Location Sensor" android:id="@+id/LocationBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+	<TextView android:text="" android:id="@+id/TextView03"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<CheckBox android:text="Raw audio Turn on/off" android:id="@+id/RawAudioBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+	<TextView android:text="" android:id="@+id/TextView03"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<CheckBox android:text="Raw accelerometer on/off" android:id="@+id/RawAccelBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+	<TextView android:text="" android:id="@+id/TextView03"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<CheckBox android:text="Wifi Scan" android:id="@+id/WifiBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+	<TextView android:text="" android:id="@+id/TextView03"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<CheckBox android:text="Bluetooth Scan" android:id="@+id/BluetoothBox"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></CheckBox>
+
+</LinearLayout>
+	

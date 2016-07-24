@@ -1,0 +1,24 @@
+package edu.dartmouth.cs.funf.probe;
+
+import edu.mit.media.funf.probe.builtin.ProbeKeys.BaseProbeKeys;
+
+public interface LocationProbeKeys extends BaseProbeKeys {
+	public static final String 
+	LONGITUDE = "LONGITUDE",
+	LATITUDE = "LATITUDE",
+	HASACCURACY = "HASACCURACY", 
+	ACCURACY = "ACCURACY",
+	HASALTITUDE = "HASALTITUDE",
+	ALTITUDE = "ALTITUDE",
+	HASSPEED = "HASSPEED",
+	SPEED = "SPEED", 
+	HASBEARING = "HASBEARING",
+	BEARING = "BEARING",
+	PROVIDER = "PROVIDER",
+	TRAVELSTATE = "TRAVELSTATE",
+	NEWWORKLOCATIONSOURCE="NEWWORKLOCATIONSOURCE",
+	NEWWORKLOCATIONTYPE="NEWWORKLOCATIONTYPE",
+	STAELLITES="STAELLITES",
+	EXTRAS = "EXTRAS";
+
+}

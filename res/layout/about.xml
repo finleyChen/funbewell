@@ -1,0 +1,34 @@
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical">
+
+	<!--<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"> <FrameLayout android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" android:layout_x="40px" android:layout_y="35px"> 
+		<ImageView android:src="@drawable/mash" android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" /> <TextView android:layout_height="wrap_content" 
+		android:id="@+id/button_status_audio" android:layout_width="fill_parent" 
+		android:gravity="center" android:text="Not Available" android:layout_gravity="center"></TextView> 
+		</FrameLayout> <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		android:layout_x="40px" android:layout_y="165px"> <ImageView android:src="@drawable/xiao" 
+		android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		/> </FrameLayout> <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		android:layout_x="40px" android:layout_y="295px"> <ImageView android:src="@drawable/mu" 
+		android:layout_width="wrap_content" android:layout_height="wrap_content" 
+		/> </FrameLayout> </AbsoluteLayout> -->
+		
+		
+	<TextView android:layout_height="wrap_content" 
+		android:layout_width="fill_parent" android:gravity="center"
+		android:text="Audio" android:textSize="24sp"></TextView>
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:gravity="center"
+		android:text="Accelerometer" android:textSize="24sp"></TextView>
+
+	<TextView android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:gravity="center"
+		android:text="Location" android:textSize="24sp"></TextView>
+
+
+</LinearLayout>

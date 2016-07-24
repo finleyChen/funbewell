@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent">
+	<TableRow>
+		<TextView />
+		<TextView />
+	</TableRow>
+	<TableRow>
+		<TextView />
+		<TextView />
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Battery:" android:width="120px"
+			android:gravity="center" />
+		<TextView android:id="@+id/battery_level" android:text="Unknown" android:width="200px"
+			android:gravity="center" />
+	</TableRow>
+	<TableRow>
+		<TextView />
+		<TextView />
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Plugged in:" android:gravity="center" />
+		<TextView android:id="@+id/plugged_in" android:text="Unknown" android:width="200px"
+			android:gravity="center" />
+	</TableRow>
+	<TableRow>
+		<TextView />
+		<TextView />
+	</TableRow>
+	<TableRow>
+		<TextView android:text="Network Status" android:gravity="center" />
+		<TextView android:id="@+id/wifi_status" android:text="Unknown" android:width="200px"
+			android:gravity="center" />
+	</TableRow>
+</TableLayout>

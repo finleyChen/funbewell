@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/layout01"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent">  
+
+
+	<TextView android:id="@+id/time_textview"
+		android:layout_width="fill_parent" android:layout_height="25px"
+		android:background="#ff444444"
+		android:text="Time" android:textSize="20sp" android:layout_alignParentRight="true" 
+		android:layout_alignParentTop="true"
+		android:paddingLeft="5dip" android:paddingRight="40dip"/>
+
+	<TextView android:id="@+id/time_of_occurance" android:layout_width="fill_parent"
+		android:layout_height="50px" android:layout_marginTop="1px" android:layout_below="@+id/time_textview"
+		android:layout_marginBottom="1px" android:text="12:30 PM"
+		android:gravity="center" android:textSize="46sp">
+	</TextView>
+
+	<!-- <GridView android:id="@+id/widget32" android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" android:numColumns="7" android:columnWidth="20px"> 
+		</GridView> <GridView android:id="@+id/widget33" android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" android:numColumns="2" android:columnWidth="20px"> 
+		</GridView> <GridView android:id="@+id/widget34" android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" android:numColumns="5" android:columnWidth="20px"> 
+		</GridView>- -->
+
+	<TableLayout android:id="@+id/start_end_time_table"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:stretchColumns="1" android:layout_below="@+id/time_of_occurance">
+
+		<TableRow>
+			<TextView android:layout_column="1" android:id="@+id/widget35"
+				android:layout_width="fill_parent" android:layout_height="36px"
+				android:background="#ff8B0000" android:layout_marginTop="4px"
+				android:text="Start" android:gravity="center" android:textSize="20sp"
+				android:paddingLeft="40dip" android:paddingRight="40dip" />
+			<TextView android:id="@+id/widget36" android:layout_width="fill_parent"
+				android:layout_height="36px" android:background="#ff008B00"
+				android:layout_marginTop="4px" android:text="End"
+				android:gravity="center" android:textSize="20sp"
+				android:paddingLeft="40dip" android:paddingRight="40dip" />
+		</TableRow>
+
+
+
+		<TableRow>
+			<LinearLayout android:layout_column="1" android:id="@+id/widget29" android:layout_width="fill_parent"
+				android:layout_height="wrap_content">
+				<Button android:id="@+id/start_custom" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text='( '>
+				</Button>
+
+				<Button android:id="@+id/start_30" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="30">
+				</Button>
+
+				<Button android:id="@+id/start_10" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="10">
+				</Button>
+
+				<Button android:id="@+id/start_1" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text=" 1 ">
+				</Button>
+			</LinearLayout>
+
+			<LinearLayout android:layout_column="1" android:id="@+id/widget29"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:gravity="right">
+				<Button android:id="@+id/end_1" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text=" 1 ">
+				</Button>
+				<Button android:id="@+id/end_10" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="10">
+				</Button>
+				<Button android:id="@+id/end_30" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="30">
+				</Button>
+
+				<Button android:id="@+id/end_custom" android:layout_width="wrap_content"
+					android:layout_height="wrap_content" android:text="  >  ">
+				</Button>
+			</LinearLayout>
+
+		</TableRow>
+
+
+		<TableRow>
+			<TextView android:layout_column="1" android:id="@+id/start_stress_time"
+				android:layout_width="fill_parent" android:layout_height="22px"
+				android:background="#ff000000" android:layout_marginTop="1px"
+				android:text="12.30 PM" android:gravity="center" android:textSize="20sp"
+				android:textColor = "#ffDC143C"
+				android:paddingLeft="40dip" android:paddingRight="40dip" />
+			<TextView android:id="@+id/end_stress_time" android:layout_width="fill_parent"
+				android:layout_height="22px" android:background="#ff000000"
+				android:textColor = "#ff32CD32"
+				android:layout_marginTop="1px" android:text="12.30 PM"
+				android:gravity="center" android:textSize="20sp"
+				android:paddingLeft="40dip" android:paddingRight="40dip" />
+
+		</TableRow>
+		<View android:layout_height="8dip" android:background="#ff000000" />
+	</TableLayout>
+
+	<TextView android:layout_column="1" android:id="@+id/stress_level"
+		android:layout_width="fill_parent" android:layout_height="25px"
+		android:background="#ff444444" android:layout_marginTop="4px"
+		android:text="Stress Level" android:textSize="20sp"
+		android:paddingLeft="5dip" android:paddingRight="40dip" android:layout_below="@+id/start_end_time_table"/>
+
+	<TableLayout android:id="@+id/stress_level_table_1"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:gravity="center" android:layout_below="@+id/stress_level">
+
+		<View android:layout_height="2dip" android:background="#ff444444" />
+
+		<TableRow android:gravity="center">
+			<!--<LinearLayout android:layout_column="1" android:id="@+id/widget29" 
+				android:layout_marginTop="3px" android:layout_width="fill_parent" android:gravity="center" 
+				android:layout_height="wrap_content"> -->
+			<!--<RadioGroup android:id="@+id/widget37" android:layout_width="wrap_content" 
+				android:layout_height="wrap_content" android:orientation="horizontal"> -->
+			<CheckBox android:layout_column="1" android:id="@+id/rb_stress_level_0"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="0 (No Stress)">
+			</CheckBox>
+			<CheckBox android:id="@+id/rb_stress_level_1"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="1   ">
+			</CheckBox>
+			<CheckBox android:id="@+id/rb_stress_level_2"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="2   ">
+			</CheckBox>
+			<CheckBox android:id="@+id/rb_stress_level_3"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="3   ">
+			</CheckBox>
+		</TableRow>
+
+		<View android:layout_height="5dip" android:background="#FF000000" />
+		<View android:layout_height="2dip" android:background="#ff444444" />
+		<View android:layout_height="5dip" android:background="#FF000000" />
+	</TableLayout>
+	<TableLayout android:id="@+id/stress_level_table_2"
+		android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_below="@+id/stress_level_table_1"
+		android:gravity="center">
+		<TableRow android:gravity="center">
+			<CheckBox android:layout_column="1" android:id="@+id/rb_stress_level_4"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="4   ">
+			</CheckBox>
+			<CheckBox android:id="@+id/rb_stress_level_5"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="5   ">
+			</CheckBox>
+			<CheckBox android:id="@+id/rb_stress_level_6"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="6   ">
+			</CheckBox>
+			<CheckBox android:id="@+id/rb_stress_level_7"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="7   ">
+			</CheckBox>
+			<!-- </RadioGroup> -->
+			<!--</LinearLayout> -->
+		</TableRow>
+		<!-- <View android:layout_height="5dip" android:background="#ff3f4dc0" />  -->
+	</TableLayout>
+
+
+	<TextView android:layout_column="1" android:id="@+id/location_textbox"
+		android:layout_width="fill_parent" android:layout_height="25px"
+		android:background="#ff444444" android:layout_marginTop="5px"
+		android:text="Location" android:gravity="left" android:textSize="20sp"
+		android:paddingLeft="5dip" android:paddingRight="40dip" android:layout_below="@+id/stress_level_table_2"/>
+
+	<TableLayout android:layout_below="@+id/location_textbox" 
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:gravity="center">
+		<TableRow android:gravity="left">
+			<CheckBox android:layout_column="1" android:id="@+id/rb_stress_location_work"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="Work   ">
+			</CheckBox>
+			<CheckBox android:id="@+id/rb_stress_location_home"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="Home   ">
+			</CheckBox>
+			<CheckBox android:id="@+id/rb_stress_location_others"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="Others   ">
+			</CheckBox>
+			<!-- </RadioGroup> -->
+			<!--</LinearLayout> -->
+		</TableRow>
+		<!---<View android:layout_height="15dip" android:background="#ff000000" /> -->
+	</TableLayout>
+
+
+	<LinearLayout android:layout_column="1" android:id="@+id/widget29" android:layout_alignParentBottom="true" 
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:gravity="center">
+		<Button android:id="@+id/b_confirm" android:layout_width="wrap_content" android:gravity="center"
+			android:layout_height="wrap_content" android:text="Confirm" android:paddingRight="55dip" android:paddingLeft="55dip">
+		</Button>
+		<Button android:id="@+id/b_cancel" android:layout_width="wrap_content" android:gravity="center"
+			android:layout_height="wrap_content" android:text="Cancel" android:paddingRight="55dip" android:paddingLeft="55dip">
+		</Button>
+	</LinearLayout>
+
+
+
+	
+
+ </RelativeLayout>

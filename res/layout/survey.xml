@@ -1,0 +1,34 @@
+<LinearLayout android:id="@+id/LinearLayout01"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical">
+
+	<TextView android:text="Please select your option" android:id="@+id/TextView01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="20sp"></TextView>
+
+	<RadioGroup android:id="@+id/widget1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical">
+		<RadioButton android:id="@+id/widget2"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Option 1" android:checked="false"
+			android:layout_weight="0" android:layout_gravity="center">
+		</RadioButton>
+		<RadioButton android:id="@+id/widget3"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Option 2" android:checked="true" android:layout_weight="0"
+			android:layout_gravity="center">
+		</RadioButton>
+		<RadioButton android:id="@+id/widget25"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Option 3" android:checked="false"
+			android:layout_weight="0" android:layout_gravity="center">
+		</RadioButton>
+		<RadioButton android:id="@+id/widget24"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:text="Option 4" android:checked="false"
+			android:layout_weight="0" android:layout_gravity="center">
+		</RadioButton>
+	</RadioGroup>
+
+</LinearLayout>

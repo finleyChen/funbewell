@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+    android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="bottom">
+    <ImageButton android:src="@drawable/bg_nogroup" 
+    	android:layout_alignParentBottom="true" 
+    	android:layout_alignParentLeft="true" 
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content" 
+    	android:id="@+id/btTerminate" android:scaleType="fitXY" android:background="@null" android:layout_marginTop="120dip" android:layout_marginBottom="80dip"></ImageButton>
+    <LinearLayout android:id="@+id/bothScores" android:layout_alignBottom="@+id/btTerminate" android:layout_alignTop="@+id/btTerminate" android:layout_centerHorizontal="true" android:layout_width="fill_parent" android:baselineAligned="false" android:layout_height="wrap_content" android:orientation="vertical" android:layout_marginTop="150dp">
+        <TextView android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView1" android:text="@string/popup_score_head" android:layout_gravity="center" android:layout_height="wrap_content" android:paddingBottom="5dp" android:layout_weight="0.15"></TextView>
+        <LinearLayout android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="0dp" android:id="@+id/llScores">
+            <LinearLayout android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:orientation="vertical" android:layout_width="fill_parent" android:layout_weight="1">
+                <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:src="@drawable/iconsleep" android:layout_width="fill_parent" android:paddingBottom="10px"></ImageView>
+                <LinearLayout android:id="@+id/linearLayout6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center_vertical|center_horizontal">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="--" android:id="@+id/tvSleep"></TextView>
+                    <TextView android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="/100"></TextView>
+                    <ImageView android:src="@drawable/up" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingLeft="5px" android:id="@+id/ivSleepTrend"></ImageView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearLayout2" android:layout_height="fill_parent" android:orientation="vertical" android:layout_width="fill_parent" android:layout_weight="1">
+                <ImageView android:layout_height="wrap_content" android:id="@+id/imageView2" android:src="@drawable/iconsocial" android:layout_width="fill_parent" android:paddingBottom="10px"></ImageView>
+                <LinearLayout android:id="@+id/linearLayout5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="--" android:id="@+id/tvSocial"></TextView>
+                    <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="/100"></TextView>
+                    <ImageView android:src="@drawable/down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/ivSocialTrend" android:paddingLeft="5px"></ImageView>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/linearLayout3" android:layout_height="fill_parent" android:orientation="vertical" android:layout_width="fill_parent" android:layout_weight="1">
+                <ImageView android:layout_height="wrap_content" android:id="@+id/imageView3" android:src="@drawable/iconphysical" android:layout_width="fill_parent" android:paddingBottom="10px"></ImageView>
+                <LinearLayout android:id="@+id/linearLayout4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center_horizontal">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="--" android:id="@+id/tvPhysical"></TextView>
+                    <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" android:text="/100"></TextView>
+                    <ImageView android:src="@drawable/mid" android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/ivPhysicalTrend" android:paddingLeft="5dip"></ImageView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/top" android:weightSum="1" android:layout_alignTop="@+id/btTerminate" android:layout_height="100dip" android:layout_centerHorizontal="true" android:baselineAligned="false" android:layout_width="wrap_content" android:layout_marginTop="20dp">
+        <TextView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:text="+0" android:layout_height="wrap_content" android:id="@+id/scoreDiff" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginRight="5dip" android:textStyle="bold" android:layout_marginTop="10dip" android:textColor="#ffd800"></TextView>
+        <LinearLayout android:layout_width="wrap_content" android:id="@+id/heading" android:orientation="vertical" android:layout_height="wrap_content" android:layout_gravity="center">
+            <TextView android:text="@string/popup_heading1" android:layout_height="20dp" android:id="@+id/heading1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_width="wrap_content" android:layout_gravity="right"></TextView>
+            <TextView android:layout_width="wrap_content" android:id="@+id/heading2" android:text="@string/popup_heading2" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_gravity="left"></TextView>
+        </LinearLayout>
+        <TextView android:text="--" android:layout_width="wrap_content" android:id="@+id/myScore" android:layout_height="wrap_content" android:textSize="64dip" android:layout_gravity="center" android:layout_marginLeft="15dip" android:textStyle="bold"></TextView>
+    </LinearLayout>
+</RelativeLayout>

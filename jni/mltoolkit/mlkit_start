@@ -1,0 +1,11 @@
+start on started hildon-desktop
+stop on starting shutdown
+console none
+
+script
+
+touch /home/user/worked
+exec /home/user/launch_kit
+
+end script
+

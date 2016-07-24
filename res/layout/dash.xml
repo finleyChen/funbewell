@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/dashBg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/dash_bg" />
+
+    <RelativeLayout
+        android:id="@+id/dashRelativeLayout0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop = "260dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/dashRelativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical" >
+<!-- 
+            <ImageButton
+                android:id="@+id/scoreButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:background="#00000000"
+                android:src="@drawable/scores" />
+
+            <TextView
+                android:id="@+id/dashTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/scoreButton"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="45dp"
+                android:text="My Scores" />
+-->
+            <ImageButton
+                android:id="@+id/webButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="#00000000"
+                android:src="@drawable/web" />
+
+            <TextView
+                android:id="@+id/dashTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/webButton"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="44dp"
+                android:text="BeWell+" />
+
+            <ImageButton
+                android:id="@+id/registerButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="#00000000"
+                android:src="@drawable/register" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/dashTextView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dashRelativeLayout1"
+            android:layout_centerHorizontal="true"
+            android:text="Sign In" />
+        
+    </RelativeLayout>
+
+<!--     <Button -->
+<!--         android:id="@+id/btnInference" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_below="@+id/dashRelativeLayout0" -->
+<!--         android:layout_centerHorizontal="true" -->
+<!--         android:layout_marginTop="40dp" -->
+<!--         android:text="Inferences" /> -->
+
+</RelativeLayout>
